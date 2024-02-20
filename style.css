@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+}
+
+    /* Navbar */
+
+header{
+    background-color: rgb(64, 64, 64);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: .96rem;
+}
+nav img{
+    margin-left: 1.6rem;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 3.2rem;
+}
+li a{
+    color: #fff;
+    margin: 3.2rem;
+    font-size: 1.6rem;
+}
+li a:hover{
+    color: #908787;
+    cursor: pointer;
+}
+#buy{
+    background-color: rgb(27, 29, 29);
+    padding: 1.28rem 3.2rem;
+}
+
+    /* Home */
+
+.home{
+    background-color: #000;
+    padding-bottom: 2.82rem;
+    margin-bottom: 10rem;
+}
+.carname h1{
+    font-size: 4.5rem;
+    color: #fff;
+    padding: 5rem 5rem;
+}
+h1 span{
+    font-size: 2rem;
+}
+.home img{
+    margin-left: 32rem;
+    margin-top: -9.6rem;
+}
+.bottom_text{
+    color: #fff;
+    display: flex;
+    justify-content: right;
+    margin-top: -3.2rem;
+}
+.bottom_text p{
+    font-size: 1.4rem;
+}
+#line{
+    width: 42.24rem;
+}
+#line2{
+    width: 12.8rem;
+    padding-top: 2.08rem;
+    padding-left: 1.6rem;
+    color: #fff;
+    border-left: .2rem solid #fff;
+    height:5.92rem;
+    margin-top: .32rem;
+    margin-left: 1.6rem;
+}
+
+    /* About */
+
+.about{
+    display: flex;  
+    margin-top: 20rem;
+}
+.about .about_image{
+    margin: 0rem 20.8rem 16rem 12.8rem;
+    border-left: 3rem solid rgb(255, 200, 1);
+    border-bottom: 3rem solid rgb(255, 200, 1);
+}
+.about_image img{
+    top: -7rem;
+    left: 7rem;
+    position:relative;
+}
+.about .text_content{
+    width: 48rem;
+    margin-top: -7.7rem;
+}
+.about .text_content h2{
+    font-size: 4.16rem;
+    margin-bottom: 3.2rem;
+}
+.about .text_content p{
+    text-align: justify;
+    word-spacing: .8rem;
+    font-size: 1.92rem;
+}
+
+    /* Vehicles */
+
+#vehicles{
+    margin-bottom: 10.24rem;
+}
+.vehicles_heading{
+    /* padding-top: 3rem; */
+    text-align: center;
+}
+.vehicles_heading h1{
+    font-weight: 900;
+    font-size: 7.68rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.vehicles_heading p{
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 1.6rem;
+    font-size: 1.6rem;
+}
+.display_images{
+    display: flex;
+    justify-content: center;
+    margin-top: 6.4rem;
+}
+#car1{
+    margin-top: -2.24rem;
+}
+#car2{
+    margin-right: 6.4rem;
+    margin-left: 3.2rem;
+}
+.cars_banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 200, 1);
+    align-items: center;
+    height: 6.4rem;
+    margin-inline: 22.4rem 20rem;
+}
+.cars_banner h3{
+    font-size: 2.08rem;
+    font-weight: 800;
+}
+
+    /* Help */
+
+#help{
+    background: url('background2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 100rem; */
+    height: 64rem;
+}
+.helpbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    left: 60%;
+    width: 40rem;
+    background-color: #fff;
+}
+.helpbox h2{
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-block: 1.6rem;
+}
+.helpbox input{
+    width: 32rem;
+    height: 3.52rem;
+    border: .2px solid rgb(196, 189, 189);
+    margin-top: 1.12rem;
+    /* text-align: center; */
+    padding-left: .64rem;
+}
+#button{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    width: 9.6rem;
+    margin-block: 2.24rem 3.2rem;
+    display: block;
+    text-align: center;
+}
+#car_model{
+    width: 32rem;
+    height: 3.52rem;
+    border: .2px solid rgb(196, 189, 189);
+    outline: none;
+    margin-top: 1.12rem;
+}
+
+    /* Footer */
+
+footer{
+    background-color: #100f0f;
+}
+.icons{
+   text-align: center;
+   padding-top: 8rem;
+}
+.icons a{
+    margin: .64rem;
+}
+footer .icons .fa{
+    color: #000;
+    background-color: #fff;
+    font-size: 1.92rem;
+    padding: .8rem;
+    border-radius: 50%;
+    transition:.5s ease;
+}
+footer .icons .fa-facebook{
+    padding: .8rem 1.28rem;
+}
+footer .icons .fa-instagram{
+    padding: .8rem .96rem;
+}
+footer .icons .fa-linkedin{
+    padding: .8rem .96rem;
+}
+footer .icons .fa-whatsapp{
+    padding: .8rem .96rem;
+}
+footer .icons .fa:hover{
+    background: #908787;
+    color: #fff;
+    transform:translateY(-1rem);
+}
+.nav_bottom_link ul{
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.2rem;
+    margin-bottom: 4.8rem;
+}
+.copyright p{
+    color: #fff;
+    padding-block:.96rem ;
+    font-size: 1.6rem;
+    background-color: #000;
+    text-align: center;
+}
+.copyright p span a{
+    color: #908787;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+    /* Media Queries */
+
+    /* Smal Laptop */
+
+@media only screen and (max-width: 1025px){
+    html{
+        font-size: 55%;
+    }
+    nav img{
+        height: 5rem;
+    }
+    ul{
+        margin-right: 2rem;
+    }
+    .home img{
+        width: 62rem;
+    }
+
+    .about_image img{
+        height: 20rem;
+        top: -5rem;
+        left: 5rem;
+    }
+    .about .about_image{
+        margin: 18rem 18rem 14rem 10rem;
+        border-left: 2.2rem solid rgb(255, 200, 1);
+        border-bottom: 2.2rem solid rgb(255, 200, 1);
+    }
+    .about .text_content{
+        width: 40rem;
+        margin-top: 12rem;
+    }
+    .about .text_content h2{
+        font-size: 3.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .about .text_content p{
+        text-align: justify;
+        word-spacing: .5rem;
+        font-size: 1.4rem;
+    }
+    #vehicles{
+        margin-bottom: 8rem;
+    }
+    .vehicles_heading h1{
+        font-size: 6rem;
+    }
+    .vehicles_heading p{
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+    }
+    #car1{
+        height: 20rem;
+    }
+    #car2{
+        height: 13rem;
+    }
+    #car3{
+        height: 18rem;
+    }
+    .cars_banner{
+        height: 6.4rem;
+        margin-inline: 17rem 14.5rem;
+    }
+    #help{
+        height: 50rem;
+    }
+}
+
+    /* Tablet */
+
+@media only screen and (max-width: 769px){
+    html{
+        font-size: 50%;
+    }
+    nav img{
+        height: 5rem;
+    }
+    ul{
+        margin-right: 1rem;
+    }
+    .home img{
+        width: 55rem;
+        margin-top: -2rem;
+        margin-left: 25rem;
+    }
+    .carname h1{
+        font-size: 3.5rem;
+        padding: 5rem 5rem;
+    }
+    .bottom_text{
+        margin-top: 0rem;
+    }
+    .about_image img{
+        height: 17rem;
+        top: -5rem;
+        left: 5rem;
+    }
+    .about .about_image{
+        margin: 18rem 15rem 14rem 10rem;
+        border-left: 2.2rem solid rgb(255, 200, 1);
+        border-bottom: 2.2rem solid rgb(255, 200, 1);
+    }
+    .about .text_content{
+        width: 35rem;
+        margin-top: 12rem;
+    }
+    .about .text_content h2{
+        font-size: 3.2rem;
+        margin-bottom: 2rem;
+    }
+    .about .text_content p{
+        word-spacing: .2rem;
+        font-size: 1.27rem;
+    }
+    #vehicles{
+        margin-bottom: 6rem;
+    }
+    .vehicles_heading h1{
+        font-size: 5rem;
+    }
+    .vehicles_heading p{
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+    #car1{
+        height: 18rem;
+    }
+    #car2{
+        height: 11rem;
+    }
+    #car3{
+        height: 16rem;
+    }
+    .cars_banner{
+        height: 6rem;
+        margin-inline: 11rem 9rem;
+    }
+    .cars_banner h3{
+        font-size: 1.8rem;
+    }
+    #help{
+        height:40rem;
+    }
+    .helpbox{
+        font-size: 1.3rem;
+        left: 55%;
+        top: 13%;
+        width: 36rem;
+    }
+    .helpbox h2{
+        margin-block: 2.5rem 1rem;
+    }
+    .helpbox input{
+        width: 28rem;
+        height: 3rem;
+        margin-top: .8rem;
+        font-size: 1.2rem;
+    }
+    #car_model{
+        width: 28rem;
+        font-size: 1.2rem;
+        height: 3rem;
+        margin-top:.8rem;
+    }
+}
+
+    /* Large Phone */
+
+@media only screen and (max-width: 426px){
+    html{
+        font-size: 48%;
+    }
+    nav img{
+        height: 3.5rem;
+    }
+    li a{
+        margin: 1.8rem;
+        font-size: 1.3rem;
+    }
+    ul{
+        margin-right: 0rem;
+    }
+    #buy{
+        padding: 1rem 3rem;
+    }
+    .home img{
+        width: 40rem;
+        margin-top: -1rem;
+        margin-left: 15rem;
+    }
+    .carname h1{
+        font-size: 3rem;
+        padding: 6rem 5rem;
+    }
+    .bottom_text{
+        margin-top: 5rem;
+        text-align: justify;
+        padding-bottom: 6rem;
+    }
+    #line{
+        width: 35rem;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about_image img{
+        top: -4rem;
+        left: 4rem;
+        height: 22rem;
+    }
+    .about .about_image{
+        margin: 12rem 15rem 1rem 8rem;
+        border-left: 2rem solid rgb(255, 200, 1);
+        border-bottom: 2rem solid rgb(255, 200, 1);
+    }
+    .about .text_content{
+        width: 37rem;
+        margin-top: 2rem;
+        text-align: center;
+        margin-left: 10rem;
+    }
+    #vehicles{
+        margin-bottom: 6rem;
+        margin-top: 5rem;
+    }
+    .vehicles_heading h1{
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+    .vehicles_heading p{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        word-spacing: .2rem;
+        word-wrap: break-word;
+    }
+    #car1{
+        height: 13rem;
+    }
+    #car2{
+        height: 8rem;
+        margin-inline: .3rem 2rem;
+    }
+    #car3{
+        height: 11.2rem;
+    }
+    .cars_banner{
+        height: 5rem;
+        margin-inline: 9rem 7rem;
+    }
+    .cars_banner h3{
+        font-size: 1.5rem;
+    }
+    #help{
+        height:40rem;
+    }
+    .helpbox{
+        left: 20%;
+        background: transparent;
+        box-shadow: inset -3px -3px 7px #ffffffb2,
+        inset 3px 3px 7px rgba(94, 104, 121, 0.945);
+        top: 13%;
+        width: 36rem;
+    }
+    .helpbox h2{
+        font-size: 1.4rem;
+        margin-block: 2.5rem 1rem;
+    }
+    .helpbox input{
+        width: 28rem;
+        height: 3rem;
+        margin-top: .8rem;
+        font-size: 1.2rem;
+    }
+    #car_model{
+        width: 28rem;
+        font-size: 1.2rem;
+        height: 3rem;
+        margin-top:.8rem;
+    }
+}
+
+    /* Medium Phone */
+@media only screen and (max-width: 376px){
+    html{
+        font-size: 45%;
+    }
+    .home img{
+        margin-top: 0rem;
+        margin-left: 10rem;
+    }
+    .bottom_text p{
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    #line{
+        width: 28rem;
+        word-spacing: .1rem;
+    }
+    #line2{
+        height:8rem;
+        padding-top: 3rem;
+    }
+    .about .about_image{
+        margin: 12rem 15rem 1rem 6rem;
+        border-left: 1.7rem solid rgb(255, 200, 1);
+        border-bottom: 1.7rem solid rgb(255, 200, 1);
+    }
+    .about .text_content{
+        margin-top: 3.5rem;
+        margin-left: 7.4rem;
+    }
+    .vehicles_heading h1{
+        font-size: 2.5rem;
+    }
+    .vehicles_heading p{
+        padding-inline: 3rem;
+    }
+    #car1{
+        height: 12rem;
+    }
+    #car2{
+        height: 7rem;
+        margin-right: 2rem;
+        margin-left: 1rem;
+    }
+    #car3{
+        height: 10rem;
+    }
+    .cars_banner{
+        height: 4rem;
+        margin-top: 2rem;
+        margin-inline: 6rem 5rem;
+    }
+    .cars_banner h3{
+        font-size: 1.3rem;
+    }
+    #help{
+        height: 30rem;
+    }
+    .helpbox{
+        left: 26%;
+        top: 13%;
+        width: 26rem;
+    }
+    .helpbox h2{
+        margin-block: 1.4rem .5rem;
+    }
+    .helpbox input, #car_model{
+        width: 22rem;
+        height: 2.7rem;
+        margin-top: .6rem;
+        font-size: 1rem;
+    }
+    #button{
+        outline: none;
+        border: none;
+        margin-block: 1.2rem 2rem;
+    }
+    .icons a{
+        margin: .4rem;
+    }
+    footer .icons .fa{
+        font-size: 1.2rem;
+    }
+    .copyright p{
+        font-size: 1.3rem;
+    }
+}
+     
+    /* Small Phone */
+    
+@media only screen and (max-width: 321px){
+    html{
+        font-size: 43%;
+    }
+    #buy{
+        padding: 1rem 1.5rem;
+    }
+    li a{
+        margin: 1.2rem;
+    }
+    .home img{
+        margin-left: 7rem;
+        width: 38rem;
+    }
+    .bottom_text{
+        margin-block: 5rem 3.9rem;
+    }
+    .about .about_image{
+        margin: 12rem 15rem 1rem 3.7rem;
+        border-left: 1.3rem solid rgb(255, 200, 1);
+        border-bottom: 1.3rem solid rgb(255, 200, 1);
+    }
+    .about .text_content{
+        margin-left: 4.7rem;
+    }
+    .vehicles_heading h1{
+        font-size: 2.3rem;
+    }
+    .vehicles_heading p{
+        padding-inline: 4rem;
+    }
+    #car1{
+        height: 10rem;
+        margin-top: -1rem;
+    }
+    #car2{
+        margin-inline: .3rem 1.4rem;
+    }
+    #car3{
+        height: 9rem;
+    }
+    .cars_banner{
+        height: 3.7rem;
+    }
+    .cars_banner h3{
+        font-size: 1.1rem;
+    }
+    #help{
+        height: 27rem;
+    }
+    #button{
+        outline: none;
+        border: none;
+        margin-block: 1.2rem 2rem;
+    }
+    .icons a{
+        margin: .4rem;
+    }
+    footer .icons .fa{
+        font-size: 1.2rem;
+    }
+    .copyright p{
+        font-size: 1.3rem;
+    }
+  }
