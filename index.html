@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="logo2.png" height="50" alt="" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#vehicles">Vehicles</a></li>
+          <li><a href="#help">Help</a></li>
+          <li><a href="#" id="buy">Buy Now</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="carname" id="carname">
+        <h1>Mercedes-Benz GLC <span>2024</span></h1>
+      </div>
+      <img
+        src="display.png"
+        width="850"
+        alt="Mercedes-Benz"
+        srcset=""
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+      />
+      <div class="bottom_text">
+        <p id="line">
+          Mercedes aims to keep raising benchmarks for their cars: Its
+          atheletic, aerodynamic body design envelops an elegantly high-tech
+          cabin. LED lightning and polished details express the brilliance
+          within.
+        </p>
+        <a href="#"><p id="line2">Read More</p></a>
+      </div>
+    </section>
+    <section
+      id="about"
+      class="about"
+      data-aos="zoom-in-up"
+      data-aos-duration="2000"
+    >
+      <div class="about_image">
+        <img src="background.jpg" height="300" alt="" />
+      </div>
+      <div class="text_content">
+        <h2>About Us</h2>
+        <p>
+          In 1902 Mercedes was launched by Austrian Automobile entrepreneur,
+          Emil Jellinek, who trademarked the name "Mercedes" after his daughter,
+          Mercedes Jellinek.Karl Benz and Gotlieb Daimler later combined their
+          companies in 1926, and thus began the production of first brand name
+          Mercedes-Benz models.With great dedication and hardwork of whole team
+          now mercedes has touched the sky of success with producing a number of
+          models of their cars.
+        </p>
+      </div>
+    </section>
+    <section
+      class="vehicles"
+      id="vehicles"
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
+    >
+      <div class="vehicles_heading">
+        <h1>Variety of Cars</h1>
+        <p>
+          working in providing a better experience to our customer with loaded
+          luxury and performance with no excuse in customer's safety
+        </p>
+      </div>
+      <div class="display_images">
+        <img src="car1.png" height="250" id="car1" alt="Mercedes S-class" />
+        <img
+          src="car2.png"
+          height="180"
+          id="car2"
+          alt="Mercedes SLR Maclaren"
+        />
+        <img src="car3.png" height="230" id="car3" alt="Mercedes A-class" />
+      </div>
+      <div class="cars_banner">
+        <h3>S-class</h3>
+        <h3>SLR Maclaren</h3>
+        <h3>A-Class</h3>
+      </div>
+    </section>
+    <section class="help" id="help">
+      <div class="helpbox" data-aos="flip-right" data-aos-duration="2000">
+        <h2>Find best car for you</h2>
+        <input type="text" placeholder="Enter Your Name" />
+        <input type="email" placeholder="Enter a valid email" />
+        <input type="number" placeholder="Enter Phone Num" />
+        <!-- <input type="text" placeholder="Suggest a car model"> -->
+        <select name="model" id="car_model">
+          <option value="" selected>Select a class</option>
+          <option value="S-Class">S-Class</option>
+          <option value="E-Class">E-Class</option>
+          <option value="C-Class">C-Class</option>
+          <option value="A-Class">A-Class</option>
+        </select>
+        <input type="submit" id="button" value="Find Now" />
+      </div>
+    </section>
+    <footer>
+      <div class="icons">
+        <a href="https://www.facebook.com/mdshaad783"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/mdshaad783?igsh=ZjhlMjF1ZjE1ZGxj"><i class="fa fa-instagram"></i></a>
+        <a href="https://mobile.twitter.com/mdshaad783"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/%F0%9D%97%A0%F0%9D%97%B1-%F0%9D%97%A6%F0%9D%97%B5%F0%9D%97%AE%F0%9D%97%AE%F0%9D%97%B1-%F0%9D%97%A5%F0%9D%97%B2%F0%9D%97%B5%F0%9D%97%AE%F0%9D%97%BB-6a8113230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+      </div>
+      <div class="nav_bottom_link">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#vehicles">Vehicles</a></li>
+          <li><a href="#help">Help</a></li>
+          <!-- <li><a href="#" id="buy">Buy Now</a></li> -->
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &#169; 2024: Designed by
+          <span
+            ><a href="https://mdshaad783.github.io/mdshaad.github.io/"
+              >shaad</a
+            ></span
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
