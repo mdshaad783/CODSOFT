@@ -456,7 +456,7 @@ footer .icons .fa:hover{
     }
     .home img{
         width: 40rem;
-        margin-top: -1rem;
+        margin-top: 2rem;
         margin-left: 15rem;
     }
     .carname h1{
@@ -473,6 +473,7 @@ footer .icons .fa:hover{
     }
     .about{
         flex-direction: column;
+        margin-top:0;
     }
     .about_image img{
         top: -4rem;
@@ -556,7 +557,7 @@ footer .icons .fa:hover{
         font-size: 45%;
     }
     .home img{
-        margin-top: 0rem;
+        margin-top: 2rem;
         margin-left: 10rem;
     }
     .bottom_text p{
@@ -571,6 +572,10 @@ footer .icons .fa:hover{
         height:8rem;
         padding-top: 3rem;
     }
+    .about{
+        margin-top:0;
+    }
+
     .about .about_image{
         margin: 12rem 15rem 1rem 6rem;
         border-left: 1.7rem solid rgb(255, 200, 1);
@@ -585,6 +590,7 @@ footer .icons .fa:hover{
     }
     .vehicles_heading p{
         padding-inline: 3rem;
+        font-size: 1rem;
     }
     #car1{
         height: 12rem;
@@ -670,6 +676,7 @@ footer .icons .fa:hover{
     }
     .vehicles_heading p{
         padding-inline: 4rem;
+        font-size:.5rem;
     }
     #car1{
         height: 10rem;
