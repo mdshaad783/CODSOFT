@@ -657,6 +657,7 @@ footer .icons .fa:hover{
         margin: 1.2rem;
     }
     .home img{
+        margin-block:5rem;
         margin-left: 7rem;
         width: 38rem;
     }
@@ -709,6 +710,6 @@ footer .icons .fa:hover{
         font-size: 1.2rem;
     }
     .copyright p{
-        font-size: 1.1rem;
+        font-size: .8rem;
     }
   }
